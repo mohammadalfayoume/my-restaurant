@@ -1,7 +1,5 @@
 # my-restaurant
 
-![website](/images/wireframe_img.png)
-
 ## **Crispy Chicken**
 ---
 >### Type of Dishes:
