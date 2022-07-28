@@ -1,6 +1,6 @@
 # my-restaurant
 
-![website](/images/wireframe_img.png)
+![website](/images/wireframe_img.jpg)
 
 ## **Crispy Chicken**
 ---
