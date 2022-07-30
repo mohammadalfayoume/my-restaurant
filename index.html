@@ -5,44 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h2>Crispy Chicken Restaurant</h2>
-        <br>
+        <h2 class="header">Crispy Chicken Restaurant</h2>
+        <div class="logo">
         <img src="images/logo.jpg" alt="logo" width="300px" height="300px">
-        <br><br>
+        </div>
         <hr>
-        <nav>
-            <a href="./index.html">Home</a>
+
+        <nav class="navigation">
+            <a href="/index.html">Home</a>
             <a href="./about.html">About</a>
             <a href="#menu">Menu</a>
             <a href="#contact">Contact</a>
-            <a href="#map">Map</a>
-           
+            <a href="#map">Map</a> 
         </nav>
     </header>
     <hr>
     <main>
         <div>
-            <p>This restaurant offer many types of meal like Burger and Chicken.
+            <p class="paragraph">This restaurant offers many types of meal like Burger and Chicken and other meals.
                 You can choose any meal from these menu:</p>
-            <br>
-            <img src="./images/burger.jpg" alt="burger" width="200px" height="200px" id="menu">
-            <img src="./images/chicken.jpg" alt="chicken" width="200px" height="200px">
-            <br>
-            <img src="images/twist.jpg" alt="twist" width="200px" height="200px">
-            <img src="images/zinger.jpg" alt="zinger" width="200px" height="200px">
-        </div>
+            <div class="img_menu">
+                <h3 class="m">Chicken</h3>
+                <br>
+                <img src="/images/amazing_family.png" alt="amazing meal" width="200px" height="200px" id="menu">
+                <img src="/images/mega_meal.png" alt="mega meal" width="200px" height="200px">
+                <img src="/images/economy_meal.png" alt="economy meal" width="200px" height="200px">
+                <img src="/images/Crispy-menu-2021-Page-Final-1-47.jpg" alt="chicken" width="200px" height="200px">
+                <br>
+                <h3 class="m">Burger</h3>
+                <br>
+                <img src="./images/burger.jpg" alt="burger" width="200px" height="200px">
+                <img src="/images/max_burger.png" alt="burger" width="200px" height="200px">
+                <img src="/images/beef_burger.png" alt="burger" width="200px" height="200px">
+                <img src="/images/chicken_burger.png" alt="burger" width="200px" height="200px">
+                <br>
+                <h3 class="m">Others</h3>
+                <br>
+                <img src="/images/Crispy-menu-2021-Page-Final-1-52-1-1.jpg" alt="twist" width="200px" height="200px">
+                <img src="/images/Crispy-menu-2021-Page-Final-1-54-1-1.jpg" alt="zinger" width="200px" height="200px">
+                <img src="/images/side_dish1.png" alt="burger" width="200px" height="200px">
+                <img src="/images/side_dish2.png" alt="burger" width="200px" height="200px">
+
+            </div>
     </main>
-    <br>
     <hr>
     <footer>
-        <h4 id="contact">contact with us:</h4>
+        <h3 id="contact">contact with us:</h3>
         <p>tel 1-(06) 1234567</p>
         <p>tel 2-(06) 8910111</p>
-        <h4 id="map"    >Map</h4>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3385.1625730552178!2d35.85101131429678!3d31.956485981227484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca186dd3c0c85%3A0xb414c4d74834548!2sCrispy%20Chicken%207th%20circle!5e0!3m2!1sen!2sjo!4v1658952781951!5m2!1sen!2sjo" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map">
+            <h3 id="map">Map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3385.1625730552178!2d35.85101131429678!3d31.956485981227484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca186dd3c0c85%3A0xb414c4d74834548!2sCrispy%20Chicken%207th%20circle!5e0!3m2!1sen!2sjo!4v1658952781951!5m2!1sen!2sjo" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <br>
+        <p class="owner">Created by Mohammad Alfayoume&hearts;</p>
         <p>&copy;Copyright 2022</p>
     </footer>
 </body>
