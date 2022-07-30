@@ -1,14 +1,16 @@
 body {
-    background-color: #eee;
+    background-color: yellow;
 }
-.header {
+header {
     padding: 20px;
-    border: 2px solid black ;
     display: grid;
-    border-radius: 5px;
     place-items: center;
     text-shadow: 1px 1px 1px;
+    background-color: blue;
+    color: yellow;
+    margin: -8px;
 }
+
 .logo {
     display: grid;
     place-items: center;
@@ -18,7 +20,7 @@ body {
     display: grid;
     place-items: center;
 }
-.paragraph {
+.paragraph, .my_paragraph {
     font-weight: bold;
 }
 
@@ -28,20 +30,28 @@ body {
     border: 3px solid black;
     border-radius: 5px;
     display: inline-block;
+    background-color: white;
 }
 
 a {
-    color: white;
+    color: red;
     padding: 5px 10px;
     margin: 5px;
     display: inline-block;
     background-color: black;
+    border: 3px solid yellow;
     border-radius: 4px;
     text-decoration: none;
 }
 
 main, footer {
     padding: 10px;
+}
+
+footer {
+    background-color: black;
+    margin: -8px;
+    color: white;
 }
 
 .owner {
@@ -53,6 +63,20 @@ main, footer {
     display: inline-block;
     font-weight: bold;
     font-style: oblique;
+}
+
+.about {
+    padding: 2px;
+    border: 3px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: white;
+}
+
+.contact, .map {
+    padding: 5px 10px;
+    border: 3px double blue;
+    margin: 10px 0;
 }
 
 
